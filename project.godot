@@ -13,7 +13,7 @@ config_version=5
 config/name="Synchronizer"
 run/main_scene="uid://7aams4pky1d0"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://icon.png"
 
 [autoload]
 
