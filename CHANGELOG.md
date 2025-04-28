@@ -2,8 +2,12 @@
 
 ## [Unreleased]
 
+
+## [1.0.0] - 2025-04-28
+
 - 🐛 fix: small bug fix
 - 🎉 feat: version 1.0.0
+
 <!-- ## [0.0.2] - 2022-12-07
 
 ### Added
