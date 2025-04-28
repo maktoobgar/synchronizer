@@ -4,7 +4,6 @@ extends Node
 # Record the name of an inner class as key
 # Record the path of the script that inner class is defined in as value
 var class_name_to_class_name: Dictionary[String, GDScript] = {
-	"PlayerPeer": MultiplayerClass.PlayerPeer,
 }
 
 # Unused keys

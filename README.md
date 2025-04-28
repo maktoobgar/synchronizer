@@ -4,6 +4,14 @@ A simple GDScript plugin to make networking even easier.
 
 ![Synchronizer banner](./images/banner.png)
 
+## Tutorial
+
+Just click on this youtube video:
+
+[![Synchronizer Thumbnail](./images/thumbnail.png)](https://www.youtube.com/watch?v=HpfknWINZog&ab_channel=FreakyDev)
+
+I tried my best at describing how to use it.
+
 ## Justification
 
 This addon has a class called [`Synchronizer`](./addons/synchronizer/synchronizer.gd) which in combine with [`Parameter`](./addons/synchronizer/parameter.gd) class, handles a lot of serialize/deserialization under the hood to send data into network for other connected peers and give a higher level of networking experience to the developers.
