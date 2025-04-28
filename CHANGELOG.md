@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 
+- 🐛 fix: small bug fix
 - 🎉 feat: version 1.0.0
 <!-- ## [0.0.2] - 2022-12-07
 

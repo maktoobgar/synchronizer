@@ -1,3 +1,4 @@
+@tool
 extends Node
 
 # Record the name of an inner class as key
