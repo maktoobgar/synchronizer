@@ -1,22 +1,11 @@
 extends Synchronizer
 
-class_name ChatClass
-
 @onready var players_list: VBoxContainer = %PlayersList
 @onready var messanges_list: VBoxContainer = %Messanges
 @onready var content_line_edit: LineEdit = %Content
 
 const PLAYER_TAG = preload("res://player_tag.tscn")
 const MESSAGE = preload("res://message.tscn")
-
-class Message:
-	var from: int = -1
-	var content: String = ""
-
-	func init(from: int, content: String) -> Message:
-		self.from = from
-		self.content = content
-		return self
 
 var players_tags: Dictionary[int, Node] = {}
 

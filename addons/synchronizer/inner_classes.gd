@@ -5,12 +5,11 @@ extends Node
 # Record the path of the script that inner class is defined in as value
 var class_name_to_class_name: Dictionary[String, GDScript] = {
 	"PlayerPeer": MultiplayerClass.PlayerPeer,
-	"Message": ChatClass.Message
 }
 
 # Unused keys
 var __unused_object_keys__: Dictionary[String, bool] = {
-	"Builtin script": true,
+	"Built-in script": true,
 	"Node": true,
 	"_import_path": true,
 	"scene_file_path": true,

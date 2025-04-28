@@ -101,16 +101,16 @@ func listen(callable: Callable) -> Parameter:
 	self.synchronizer.listen(self.name, callable)
 	return self
 
-func synchronize(value: Variant = ERR_INVALID_DATA, from_who: int = 1) -> Parameter:
-	self.synchronizer.synchronize(self.name, value, from_who)
+func synchronize(from_who: int = 1) -> Parameter:
+	self.synchronizer.synchronize(self.name, from_who)
 	return self
 
-func synchronize_but_me(value: Variant = ERR_INVALID_DATA, from_who: int = 1) -> Parameter:
-	self.synchronizer.synchronize_but_me(self.name, value, from_who)
+func synchronize_but_me(from_who: int = 1) -> Parameter:
+	self.synchronizer.synchronize_but_me(self.name, from_who)
 	return self
 
-func synchronize_id(player_id: int, value: Variant = ERR_INVALID_DATA) -> Parameter:
-	self.synchronizer.synchronize_id(player_id, self.name, value)
+func synchronize_id(player_id: int) -> Parameter:
+	self.synchronizer.synchronize_id(player_id, self.name)
 	return self
 
 func synchronize_from_server(from_who: int = 1) -> Parameter:
